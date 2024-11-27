@@ -1,8 +1,8 @@
-//  Array
+//  Funções com tarefas
 
-let friends  = ['Marcos' , 'Silvia' , "Jane"]
+function saleStatus(status, total) {
+    console.log(`Transaction ${status} Total amount: $${total}`);
+}
 
-friends[2] = 'Julia'
 
-console.log(friends[2]);
-
+saleStatus('Approved', 30);
