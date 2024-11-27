@@ -1,6 +1,4 @@
 
-let firstName = 'Heberton';
-let lastName =  'Geovane';
-
-console.log(firstname);
-console.log(lastname);
+const price = 30;
+// price 20;
+console.log(price);
