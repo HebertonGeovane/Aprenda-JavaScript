@@ -1,9 +1,17 @@
+//  Objetos
 
-let itemName = 'Pen'
-let itemPrice = 3
-let itemAvailable = true
-let itemColor 
-itemName =  null
+let itemName = 'Pen';
+let itemPrice = 3;
+let itemAvailable = true;
+let itemColor = 'Red';
 
-console.log(itemName)
+let pen = {
+    itemName: 'Pen',
+    itemPrice: 3,
+    itemAvailable: true,
+    itemColor: 'Red'  
+};
+
+pen.itemColor = 'blue'
+console.log(pen);
 
