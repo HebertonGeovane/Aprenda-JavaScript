@@ -1,17 +1,8 @@
-//  Objetos
+//  Array
 
-let itemName = 'Pen';
-let itemPrice = 3;
-let itemAvailable = true;
-let itemColor = 'Red';
+let friends  = ['Marcos' , 'Silvia' , "Jane"]
 
-let pen = {
-    itemName: 'Pen',
-    itemPrice: 3,
-    itemAvailable: true,
-    itemColor: 'Red'  
-};
+friends[2] = 'Julia'
 
-pen.itemColor = 'blue'
-console.log(pen);
+console.log(friends[2]);
 
