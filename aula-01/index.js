@@ -1,23 +1,19 @@
-// Switch e Case
+//  Criando um Objeto
 
-let airport = 'VCP'
+let bookTitle = 'Atomic Habitcs'
+let bookAutor= 'James Clear'
+let bookPages = 306
 
-switch (airport){
-    case'GRU':
-        console.log('Guarulhos')
-        break
-    case'CGH':
-        console.log('Congonhas')
-        break
-    case 'VCP':
-        console.log('Viracopos')
-        break
-    default:
-        console.log('Unknown')
-    break
-
+const book = {
+    bookTitle: 'Atomic Habitcs',
+    bookAutor: 'James Clear',
+    bookPages : 306,
+    bookChapter: {
+        chap1: 'Fundamentals',
+        chap2: '1st law',        
+    }
 }
-
+console.log(book)
 
 
 

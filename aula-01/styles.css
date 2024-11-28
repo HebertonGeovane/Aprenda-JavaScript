@@ -1,0 +1,20 @@
+h1 {
+    font-size: 30px;
+    color: red;
+    font-family :'Franklin Gothic Medium';
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:crimson;;
+    text-align:justify;
+    letter-spacing: 05px;
+}
+
+body{
+
+    background-color:beige;
+} 
+
