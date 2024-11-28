@@ -1,17 +1,24 @@
-// If Else
+// Switch e Case
 
-let driverSpeed = 110
+let airport = 'VCP'
 
-if (driverSpeed > 110){
-    console.log('Driving to fast')
+switch (airport){
+    case'GRU':
+        console.log('Guarulhos')
+        break
+    case'CGH':
+        console.log('Congonhas')
+        break
+    case 'VCP':
+        console.log('Viracopos')
+        break
+    default:
+        console.log('Unknown')
+    break
+
 }
 
-else if (driverSpeed >40 && driverSpeed <= 110){
-    console.log('Ok')
-}
 
-else 
-    console.log('Driving to slow')
 
 
 
