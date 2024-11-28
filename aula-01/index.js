@@ -1,12 +1,11 @@
-//  Operadores Aritméticos
+//  Operadores de Atribuição
 
 let num1 = 3
-let num2 = 2
 
-let total = num1 + num2
+num1 += 20
 
 
-console.log(total++)
-console.log(total)
+console.log(num1)
+
 // ++
 // --
