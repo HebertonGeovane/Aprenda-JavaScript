@@ -1,10 +1,13 @@
-//  Operadores de Igualdade
+// Operadores logicos
 
-let num1 = '1'
-let num1 = 2
+let temIdadeMinima= true
+let temTituloEleitor = false
 
-console.log(num1 === 2)
-console.log(num1 == 2)
+let podevotar = temIdadeMinima && temTituloEleitor
+console.log('Pode Votar: ' + podevotar)
+
+let podeviajar = !podevotar
+console.log('Pode Viajar: ' + podeviajar)
 
 
 
