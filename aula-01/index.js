@@ -1,8 +1,12 @@
-//  Funções com tarefas
+//  Operadores Aritméticos
 
-function saleStatus(status, total) {
-    console.log(`Transaction ${status} Total amount: $${total}`);
-}
+let num1 = 3
+let num2 = 2
+
+let total = num1 + num2
 
 
-saleStatus('Approved', 30);
+console.log(total++)
+console.log(total)
+// ++
+// --
