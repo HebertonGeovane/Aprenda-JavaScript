@@ -1,11 +1,11 @@
 //  Operadores de Atribuição
 
-let num1 = 3
+let num1 = 'Heberton'
 
-num1 += 20
-
-
-console.log(num1)
-
+//console.log(num1 > 0)
+//console.log(num1 < 0)
+//console.log(num1 >= 3)
+//console.log(num1 <= 3)
+console.log(num1  !== 'Heberton')
 // ++
 // --
