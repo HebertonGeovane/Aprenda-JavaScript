@@ -1,13 +1,18 @@
-// Operadores logicos
+// If Else
 
-let temIdadeMinima= true
-let temTituloEleitor = false
+let driverSpeed = 110
 
-let podevotar = temIdadeMinima && temTituloEleitor
-console.log('Pode Votar: ' + podevotar)
+if (driverSpeed > 110){
+    console.log('Driving to fast')
+}
 
-let podeviajar = !podevotar
-console.log('Pode Viajar: ' + podeviajar)
+else if (driverSpeed >40 && driverSpeed <= 110){
+    console.log('Ok')
+}
+
+else 
+    console.log('Driving to slow')
+
 
 
 
