@@ -1,22 +1,23 @@
-//  Criando um Objeto
+//  Criando uma Factory
 
-let bookTitle = 'Atomic Habitcs'
-let bookAutor= 'James Clear'
-let bookPages = 306
-
-const book = {
-    bookTitle: 'Atomic Habitcs',
-    bookAutor: 'James Clear',
-    bookPages : 306,
-    bookChapter: {
-        chap1: 'Fundamentals',
-        chap2: '1st law',        
-    },
-    printBook: function() {
-        console.log('Printing...')
+function createBook(title, author, pages,){ 
+    const book = {
+        bookTitle: title,
+        bookAuthor: author,
+        bookPages : pages,
+        printBook: function() {
+            console.log('Printing...')
+        }
     }
+    return book
 }
-book.printBook()
+
+const book1 = createBook('Atomic Habitcs', 'James Clear', 306)
+const book2 = createBook('Think', 'Napolean', 450)
+console.log(book1)
+console.log(book2)
+
+
 
 
 
